@@ -30,6 +30,11 @@ Developing computer vision algorithms for underwater sonar imagery using Holooce
 **Primary Researcher:** Arturo
 **Status:** Implementing
 
+### [Acoustic Model Energy Management](/projects/acoustic-model-energy-management/)
+
+**Primary Researcher:** Hamza Hussain
+**Status:**
+
 <!-- Additional projects:
 ### [Tactile Grasping](/projects/tactile-grasping/)
 Brief description of the project...
