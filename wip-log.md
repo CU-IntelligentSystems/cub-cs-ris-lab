@@ -28,7 +28,7 @@ The WIP Log aggregates all work-in-progress updates from researchers across proj
 {% for post in wip_posts %}
 ## [{{ post.title }}]({{ post.url }})
 **Date:** {{ post.date | date: "%Y-%m-%d" }}
-**Project:** [{{ post.project }}](/projects/{{ post.project }}/)
+**Project:** [{{ post.project }}]({{ '/projects/' | append: post.project | append: '/' | relative_url }})
 **Presenter:** {{ post.presenter }}
 **Status:** {{ post.status }}
 

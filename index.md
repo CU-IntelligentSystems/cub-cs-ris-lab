@@ -28,6 +28,6 @@ By standardizing how we record progress and challenges, the site helps the lab c
 
 ## Quick Links
 
-- [Projects](/projects/) - Summary of all active and past projects
-- [WIP Log](/wip-log/) - Latest work-in-progress entries across all projects
-- [People](/people/) - Lab members and their contributions
+- [Projects]({{ '/projects/' | relative_url }}) - Summary of all active and past projects
+- [WIP Log]({{ '/wip-log/' | relative_url }}) - Latest work-in-progress entries across all projects
+- [People]({{ '/people/' | relative_url }}) - Lab members and their contributions

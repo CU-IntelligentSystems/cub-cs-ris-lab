@@ -24,13 +24,13 @@ Each project maintains its own dedicated page with documentation, links to code 
 
 ## Active Projects
 
-### [Sonar Computer Vision](/projects/sonar-cv/)
+### [Sonar Computer Vision]({{ '/projects/sonar-cv/' | relative_url }})
 Developing computer vision algorithms for underwater sonar imagery using Holoocean simulator and Docker.
 
 **Primary Researcher:** Arturo
 **Status:** Implementing
 
-### [Acoustic Model Energy Management](/projects/acoustic-model-energy-management/)
+### [Acoustic Model Energy Management]({{ '/projects/acoustic-model-energy-management/' | relative_url }})
 
 **Primary Researcher:** Hamza Hussain
 **Status:**

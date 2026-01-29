@@ -25,7 +25,7 @@ Lab members are listed by role, with links to their research contributions. The 
 ## Faculty/Staff
 
 ### Arturo
-**Projects:** [Sonar Computer Vision](/projects/sonar-cv/)
+**Projects:** [Sonar Computer Vision]({{ '/projects/sonar-cv/' | relative_url }})
 **Research Focus:** Computer vision for underwater robotics, sonar imaging, simulation
 
 *Coming soon...*
