@@ -1,16 +1,16 @@
 ---
-title: "WIP: sonar-cv - Arturo (2026-01-29)"
+title: "WIP: sonar-cv - Arturo Gomez-Chavez [2026-01-29]"
 layout: default
 parent: WIP Log
 nav_order: 1
 date: 2026-01-29
 project: sonar-cv
-presenter: Arturo
+presenter: Arturo Gomez-Chavez
 tags: [computer-vision, sonar, docker, holoocean, simulation]
 status: implementing
 ---
 
-# WIP - Sonar Computer Vision - Arturo - 2026-01-29
+# WIP - Sonar Computer Vision - Arturo Gomez-Chavez - \[2026-01-29\]
 
 ## 1) Snapshot (pre-fill)
 **Goal (1–2 sentences):**

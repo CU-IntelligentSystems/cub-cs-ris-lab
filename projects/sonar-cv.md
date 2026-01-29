@@ -3,7 +3,7 @@ title: Sonar Computer Vision
 layout: default
 parent: Projects
 nav_order: 1
-primary_researcher: Arturo Gomez Chavez
+primary_researcher: Arturo Gomez-Chavez
 ---
 
 # Sonar Computer Vision
@@ -27,7 +27,7 @@ This project focuses on developing computer vision algorithms for processing and
 ## Current Status
 
 **Status:** Implementing
-**Primary Researcher:** Arturo Gomez Chavez
+**Primary Researcher:** Arturo Gomez-Chavez
 **Start Date:** January 2026
 
 ## Goals

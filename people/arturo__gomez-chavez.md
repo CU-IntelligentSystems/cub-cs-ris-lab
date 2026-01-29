@@ -5,7 +5,7 @@ parent: People
 nav_order: 1
 
 first_name: Arturo
-last_name: Gomez Chavez
+last_name: Gomez-Chavez
 group: faculty
 
 honorific_title: PhD

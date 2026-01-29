@@ -33,7 +33,9 @@ Lab members are listed by role, with links to their research contributions.
 {% for person in faculty %}
 ### [{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}]({{ person.url | relative_url }})
 
-{% if person.research_focus %}**Research Focus:** {{ person.research_focus }}{% endif %}
+{% if person.research_focus %}
+#### **Research Focus:** {{ person.research_focus }}
+{% endif %}
 
 {% endfor %}
 {% else %}
@@ -107,7 +109,12 @@ Lab members are listed by role, with links to their research contributions.
 {% assign alumni = people | where: "status", "inactive" | sort: "last_name" %}
 {% if alumni.size > 0 %}
 {% for person in alumni %}
-- [{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}]({{ person.url | relative_url }}) ({{ person.group | capitalize }}) - {% if person.offboard == "yes" %}Offboarded{% else %}NOT Offboarded{% endif %}
+### [{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}]({{ person.url | relative_url }})
+{% if person.research_focus %}
+#### **Research Focus:** {{ person.research_focus }}
+#### **Offboard:** {{ person.offboard }}
+{% endif %}
+
 {% endfor %}
 {% else %}
 *No alumni yet.*
