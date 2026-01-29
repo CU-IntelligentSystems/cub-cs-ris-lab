@@ -1,5 +1,7 @@
 ---
-title: "WIP: sonar-cv — Arturo (2026-01-29)"
+title: "WIP: sonar-cv - Arturo (2026-01-29)"
+layout: default
+parent: WIP Log
 date: 2026-01-29
 project: sonar-cv
 presenter: Arturo
