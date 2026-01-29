@@ -1,11 +1,26 @@
 ---
 title: People
 layout: default
+nav_order: 4
 ---
 
 # People
+{: .no_toc }
 
 This page lists all lab members and links to their WIP entries.
+{: .fs-6 .fw-300 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## Overview
+
+Lab members are listed by role, with links to their research contributions. The WIP entries section automatically aggregates all updates by each researcher.
 
 ## Faculty
 
@@ -13,7 +28,9 @@ This page lists all lab members and links to their WIP entries.
 
 ## Graduate Students
 
-*Coming soon...*
+### Arturo
+**Projects:** [Sonar Computer Vision](/projects/sonar-cv/)
+**Research Focus:** Computer vision for underwater robotics, sonar imaging, simulation
 
 ## Undergraduate Students
 

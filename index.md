@@ -1,11 +1,24 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
 # Research Lab - Public Log
+{: .no_toc }
 
 This website serves as the public research log and knowledge base for our Research Lab.
+{: .fs-6 .fw-300 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## About
 
 We document ongoing work-in-progress updates, decisions, and lessons learned so results are easy to track over time and simple for new researchers to pick up.
 
