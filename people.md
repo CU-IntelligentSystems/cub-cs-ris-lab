@@ -1,7 +1,7 @@
 ---
 title: People
 layout: default
-nav_order: 4
+nav_order: 2
 has_toc: false
 has_children: true
 ---
@@ -31,10 +31,9 @@ Lab members are listed by role, with links to their research contributions.
 {% assign faculty = people | where: "group", "faculty" | where: "status", "active" | sort: "last_name" %}
 {% if faculty.size > 0 %}
 {% for person in faculty %}
-### {% if person.public_url %}[{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}]({{ person.public_url }}){% else %}{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}{% endif %}
+### [{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}]({{ person.url | relative_url }})
 
 {% if person.research_focus %}**Research Focus:** {{ person.research_focus }}{% endif %}
-**Status:** {{ person.status }}
 
 {% endfor %}
 {% else %}
@@ -46,10 +45,10 @@ Lab members are listed by role, with links to their research contributions.
 {% assign phd = people | where: "group", "phd" | where: "status", "active" | sort: "last_name" %}
 {% if phd.size > 0 %}
 {% for person in phd %}
-### {% if person.public_url %}[{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}]({{ person.public_url }}){% else %}{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}{% endif %}
-
-{% if person.research_focus %}**Research Focus:** {{ person.research_focus }}{% endif %}
-**Status:** {{ person.status }}
+### [{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}]({{ person.url | relative_url }})
+{% if person.research_focus %}
+#### **Research Focus:** {{ person.research_focus }}
+{% endif %}
 
 {% endfor %}
 {% else %}
@@ -61,10 +60,10 @@ Lab members are listed by role, with links to their research contributions.
 {% assign masters = people | where: "group", "masters" | where: "status", "active" | sort: "last_name" %}
 {% if masters.size > 0 %}
 {% for person in masters %}
-### {% if person.public_url %}[{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}]({{ person.public_url }}){% else %}{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}{% endif %}
-
-{% if person.research_focus %}**Research Focus:** {{ person.research_focus }}{% endif %}
-**Status:** {{ person.status }}
+### [{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}]({{ person.url | relative_url }})
+{% if person.research_focus %}
+#### **Research Focus:** {{ person.research_focus }}
+{% endif %}
 
 {% endfor %}
 {% else %}
@@ -76,10 +75,10 @@ Lab members are listed by role, with links to their research contributions.
 {% assign undergrad = people | where: "group", "undergrad" | where: "status", "active" | sort: "last_name" %}
 {% if undergrad.size > 0 %}
 {% for person in undergrad %}
-### {% if person.public_url %}[{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}]({{ person.public_url }}){% else %}{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}{% endif %}
-
-{% if person.research_focus %}**Research Focus:** {{ person.research_focus }}{% endif %}
-**Status:** {{ person.status }}
+### [{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}]({{ person.url | relative_url }})
+{% if person.research_focus %}
+#### **Research Focus:** {{ person.research_focus }}
+{% endif %}
 
 {% endfor %}
 {% else %}
@@ -91,10 +90,10 @@ Lab members are listed by role, with links to their research contributions.
 {% assign external = people | where: "group", "external" | where: "status", "active" | sort: "last_name" %}
 {% if external.size > 0 %}
 {% for person in external %}
-### {% if person.public_url %}[{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}]({{ person.public_url }}){% else %}{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}{% endif %}
-
-{% if person.research_focus %}**Research Focus:** {{ person.research_focus }}{% endif %}
-**Status:** {{ person.status }}
+### [{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}]({{ person.url | relative_url }})
+{% if person.research_focus %}
+#### **Research Focus:** {{ person.research_focus }}
+{% endif %}
 
 {% endfor %}
 {% else %}
@@ -108,7 +107,7 @@ Lab members are listed by role, with links to their research contributions.
 {% assign alumni = people | where: "status", "inactive" | sort: "last_name" %}
 {% if alumni.size > 0 %}
 {% for person in alumni %}
-- {% if person.public_url %}[{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}]({{ person.public_url }}){% else %}{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}{% endif %} ({{ person.group | capitalize }}) - {% if person.offboard == "yes" %}Offboarded{% else %}NOT Offboarded{% endif %}
+- [{{ person.honorific_title }} {{ person.first_name }} {{ person.last_name }}]({{ person.url | relative_url }}) ({{ person.group | capitalize }}) - {% if person.offboard == "yes" %}Offboarded{% else %}NOT Offboarded{% endif %}
 {% endfor %}
 {% else %}
 *No alumni yet.*

@@ -2,7 +2,7 @@
 title: Acoustic Modem Energy Management
 layout: default
 parent: Projects
-nav_order: 2
+nav_order: 1
 primary_researcher: Hamza Hussain
 ---
 

@@ -44,7 +44,7 @@ research_focus:
 {% assign person_wips = site.pages | where_exp: "p", "p.path contains 'wip/'" | where_exp: "p", "p.presenter contains page.first_name and p.presenter contains page.last_name" | sort: "date" | reverse %}
 {% if person_wips.size > 0 %}
 {% for wip in person_wips %}
-- [{{ wip.title }}]({{ wip.url | relative_url }}) - {{ wip.date | date: "%Y-%m-%d" }}
+- [{{ wip.title }}]({{ wip.url | relative_url }})
 {% endfor %}
 {% else %}
 *No WIP entries yet.*
