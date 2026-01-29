@@ -2,6 +2,7 @@
 title: "WIP: sonar-cv - Arturo (2026-01-29)"
 layout: default
 parent: WIP Log
+nav_order: 1
 date: 2026-01-29
 project: sonar-cv
 presenter: Arturo

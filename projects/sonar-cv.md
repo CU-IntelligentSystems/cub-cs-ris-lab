@@ -2,6 +2,7 @@
 title: Sonar Computer Vision
 layout: default
 parent: Projects
+nav_order: 1
 ---
 
 # Sonar Computer Vision
