@@ -24,7 +24,8 @@ YYYY-MM-DD__<project_slug>__<presenter>.md
    - `project`: project slug (e.g., tactile-grasping)
    - `presenter`: Full Name
    - `tags`: relevant tags for the entry
-   - `status`: one of: exploring | implementing | experiments | writing | wrapping-up | maintenance
+   - `status`: one of: exploring | implementing | experiments | writing | wrapping-up | maintenance | concluded
+   - `notetaker`: Full Name
 4. Fill in the content sections with your update
 
 ## Project Slugs

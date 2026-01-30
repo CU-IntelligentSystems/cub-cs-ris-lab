@@ -22,6 +22,8 @@ status: experiments
 
 ## Overview
 
+Reduce acoustic communication/ranging energy consumption during AUV localization by turning acoustics off or using fewer beacons when possible, while still maintaining mission-defined limits on localization uncertainty/accuracy.
+
 ## Current Status
 
 **Status:**
