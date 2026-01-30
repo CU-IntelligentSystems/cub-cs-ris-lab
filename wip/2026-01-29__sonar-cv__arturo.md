@@ -1,10 +1,10 @@
 ---
-title: "WIP: sonar-cv - Arturo Gomez-Chavez [2026-01-29]"
+title: "WIP: EXAMPLE-sonar-cv - Arturo Gomez-Chavez [2330-12-12]"
 layout: default
 parent: WIP Log
 nav_order: 1
-date: 2026-01-29
-project: sonar-cv
+date: 2330-12-12
+project: EXAMPLE-sonar-cv
 presenter: Arturo Gomez-Chavez
 tags: [computer-vision, sonar, docker, holoocean, simulation]
 status: implementing
