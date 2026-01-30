@@ -26,7 +26,11 @@ research_focus: computer vision, deep learning, underwater robotics, sonar, ster
 
 ## About
 
-*Coming soon...*
+- **Background:** Finished PhD in Robotics in December 2025. Previously worked in Copmuter Vision for Waste Management as team-lead and co-founder.
+- **Research Interests:** Multimodal models (with different sensor modalities not only text+vision). Production AI-Agents
+- **Current Work:** Sonar reconstruction, underwater simulation
+- **Skills:** Good at many, expert of nothing =P Docker, ROS, Backend, etc. Python, C++. 
+- **Hobbies:** Semi-retired and old martial artist, fan of dogs and anime when it was not mainstream
 
 ## Current Projects
 

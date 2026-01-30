@@ -59,7 +59,12 @@ Use lowercase with double underscore between first and last name. Use hyphens fo
 Each person page has three main sections:
 
 ### About
-Brief biography and background information.
+Brief introduction with the following suggested bullets:
+- **Background:** Previous education, institution, or relevant experience
+- **Research Interests:** Specific topics or problems you're interested in
+- **Current Work:** What you're currently working on in the lab
+- **Skills:** Programming languages, tools, or methodologies you use
+- **Hobbies:** Interests outside of work
 
 ### Current Projects
 Automatically lists projects where the person is the `primary_researcher`. The filter matches projects where `primary_researcher` contains both the first and last name.

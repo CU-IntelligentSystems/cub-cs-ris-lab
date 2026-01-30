@@ -34,7 +34,11 @@ Please don't inlicde the published Tag above when creating your file
 
 ## About
 
-*Add bio here...*
+- **Background:** <Previous education, institution, or relevant experience>
+- **Research Interests:** <Specific topics or problems you're interested in>
+- **Current Work:** <What you're currently working on in the lab>
+- **Skills:** <Programming languages, tools, or methodologies you use>
+- **Hobbies:** <Interests outside of work>
 
 ## Current Projects
 
