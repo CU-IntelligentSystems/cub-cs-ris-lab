@@ -7,26 +7,69 @@ We document ongoing work-in-progress updates, decisions, and lessons learned so 
 ## Website Structure
 
 - **Home** (`index.md`) - Overview and quick links
+- **People** (`people.md`) - Lab members and their contributions
 - **Projects** (`projects.md`) - Summary of all research projects
 - **WIP Log** (`wip-log.md`) - Latest work-in-progress entries across all projects
-- **People** (`people.md`) - Lab members and their contributions
 
 ### Directories
 
-- `projects/` - Individual project pages
-- `wip/` - Work-in-progress log entries
+| Directory | Description | README |
+|-----------|-------------|--------|
+| `people/` | Individual lab member pages | [people/README.md](people/README.md) |
+| `projects/` | Individual project pages | [projects/README.md](projects/README.md) |
+| `wip/` | Work-in-progress log entries | [wip/README.md](wip/README.md) |
+| `assets/` | Images, icons, and other static files | - |
 
-## Creating WIP Entries
+## Quick Start Guides
 
-WIP entries follow a standardized template to ensure consistency and completeness.
+### Adding a New Person
+
+1. Copy `people/TEMPLATE.md`
+2. Rename to `firstname__lastname.md` (lowercase, double underscore)
+3. Remove `published: False` from frontmatter
+4. Fill in the frontmatter and content sections
+
+See [people/README.md](people/README.md) for detailed instructions.
+
+### Adding a New Project
+
+1. Copy `projects/TEMPLATE.md`
+2. Rename to `<project-slug>.md` (lowercase, hyphens)
+3. Remove `published: False` from frontmatter
+4. Fill in the frontmatter and content sections
+
+See [projects/README.md](projects/README.md) for detailed instructions.
+
+### Adding a WIP Entry
 
 1. Copy `wip/TEMPLATE.md`
-2. Rename following the convention: `YYYY-MM-DD__<project_slug>__<presenter>.md`
-   - Example: `2024-03-15__tactile-grasping__john-doe.md`
-3. Fill in the frontmatter and content sections
-4. The entry will automatically appear on the WIP Log and People pages
+2. Rename to `YYYY-MM-DD__<project-slug>__<presenter>.md`
+3. Remove `published: False` from frontmatter
+4. Fill in the frontmatter and content sections
+5. The entry will automatically appear on the WIP Log, Project, and People pages
 
-See `wip/README.md` for detailed instructions.
+See [wip/README.md](wip/README.md) for detailed instructions.
+
+## Naming Conventions
+
+| Type | Format | Example |
+|------|--------|---------|
+| Project slugs | lowercase with hyphens | `sonar-cv`, `acoustic-modem-energy-management` |
+| Project files | `<project-slug>.md` | `sonar-cv.md` |
+| People files | `firstname__lastname.md` | `juan__perez-ochoa.md` |
+| WIP files | `YYYY-MM-DD__<project-slug>__<presenter>.md` | `2026-01-29__acoustic-modem-energy-management__mikasa-ackermann.md` |
+
+## Status Values
+
+Projects and WIP entries use consistent status values:
+
+- `exploring` - Initial research and feasibility study
+- `implementing` - Active development
+- `experiments` - Running experiments and collecting data
+- `writing` - Writing papers or documentation
+- `wrapping-up` - Finalizing results
+- `maintenance` - Ongoing maintenance
+- `concluded` - Project completed
 
 ## Technical Details
 
@@ -53,18 +96,6 @@ To set up:
 1. Go to Settings > Pages > Build and deployment
 2. Select Source: GitHub Actions
 3. Push changes to trigger deployment
-
-## Naming Conventions
-
-**Project slugs:** Use lowercase with hyphens (kebab-case)
-- Examples: `tactile-grasping`, `legged-locomotion`, `slam-mapping`
-
-**WIP filenames:** `YYYY-MM-DD__<project_slug>__<presenter>.md`
-- Examples: `2024-03-15__tactile-grasping__john-doe.md`
-
-## License
-
-This repository is licensed under the MIT License.
 
 ---
 
