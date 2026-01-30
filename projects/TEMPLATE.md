@@ -53,7 +53,7 @@ Please don't inlicde the published Tag above when creating your file
 
 ## Related WIP Entries
 
-{% assign project_wips = site.pages | where_exp: "item", "item.project == page.project" | sort: "date" | reverse %}
+{% assign project_wips = site.pages | where_exp: "item", "item.path contains 'wip/'" | where_exp: "item", "item.project == page.project" | sort: "date" | reverse %}
 {% if project_wips.size > 0 %}
 {% for wip in project_wips %}
 - [{{ wip.title }}]({{ wip.url | relative_url }}) - {{ wip.date | date: "%Y-%m-%d" }}

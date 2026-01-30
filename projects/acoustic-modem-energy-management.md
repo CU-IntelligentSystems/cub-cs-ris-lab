@@ -34,13 +34,12 @@ Reduce acoustic communication/ranging energy consumption during AUV localization
 ## Goals
 
 - Write somehting here, bitte
-- ..,
+- ...
 
 ## Technical Approach
 
 - Write somehting here, bitte
-- ..,
--
+- ...
 
 ## Repository
 
@@ -48,10 +47,10 @@ Example link
 
 ## Related WIP Entries
 
-{% assign project_wips = site.pages | where_exp: "item", "item.project == page.project" | sort: "date" | reverse %}
+{% assign project_wips = site.pages | where_exp: "item", "item.path contains 'wip/'" | where_exp: "item", "item.project == page.project" | sort: "date" | reverse %}
 {% if project_wips.size > 0 %}
 {% for wip in project_wips %}
-- [{{ wip.title }}]({{ wip.url | relative_url }}) - {{ wip.date | date: "%Y-%m-%d" }}
+- [{{ wip.title }}]({{ wip.url | relative_url }})
 {% endfor %}
 {% else %}
 *No WIP entries yet.*
